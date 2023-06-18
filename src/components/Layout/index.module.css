@@ -1,0 +1,11 @@
+.layout{
+    display: flex;
+    overflow: hidden;
+    max-width: 1300px;
+  margin: 0px auto;
+}
+.main{
+    width: 80%;
+    height: 100vh;
+    background-color: var(--white-color);
+}

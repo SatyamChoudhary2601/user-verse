@@ -1,0 +1,40 @@
+.cardContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(var(--secondary-color), var(--primary-color));
+}
+.cardWrapper{
+}
+.card {
+  background-color: var(--white-color);
+  width: 450px;
+  height: 450px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.cardHeader {
+  background-color: var(--gray-100);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardHeaderText {
+  font-size: 18px;
+  color: var(--text-color);
+}
+.cardBody {
+  height: 350px;
+  padding: 0px 20px;
+  overflow: scroll;
+  background-color: var(--white-color);
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    padding: 20px;
+  }
+}

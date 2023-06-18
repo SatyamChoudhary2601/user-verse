@@ -1,0 +1,31 @@
+.chat{
+    width: 300px;
+    height: 60px;
+    background-color: #2C64C9;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+.left{
+    display: flex;
+    align-items: center;
+    gap:10px
+}
+.icon{
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.text{
+    color: var(--white-color);
+    font-size: 18px;
+    font-weight: 500;
+}
